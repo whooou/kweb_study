@@ -1,0 +1,18 @@
+{
+  "name": "week1",
+  "version": "1.0.0",
+  "description": "1주차_실습1",
+  "main": "index.js",
+  "author": "subin",
+  "license": "MIT",
+  "devDependencies": {
+    "global": "^4.3.2",
+    "nodemon": "^1.18.4"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "startCal": "node cal.js",
+    "startCal:dev": "nodemon cal.js"
+  }
+}

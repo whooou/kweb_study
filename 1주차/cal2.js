@@ -17,7 +17,11 @@ function div(a,b){
     return a/b;
 }
 
- function getE(){
+function mod(a,b){
+    return a%b;
+}
+
+function getE(){
     return Math.E;
 }
 
@@ -26,5 +30,6 @@ module.exports = {
     sub: sub,
     mul: mul,
     div: div,
+    mod: mod,
     getE: getE
 }

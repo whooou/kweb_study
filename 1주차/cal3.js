@@ -17,6 +17,10 @@ exports.div = function(a,b){
     return a/b;
 }
 
+exports.mod = function(a,b){
+    return a%b;
+}
+
 exports.getE = function(){
     return Math.E;
 }

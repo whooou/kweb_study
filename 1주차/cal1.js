@@ -19,6 +19,10 @@ calc.div = function(a,b){
     return a/b;
 }
 
+calc.mod = function(a,b){
+    return a%b;
+}
+
 calc.getE = function(){
     return Math.E;
 }

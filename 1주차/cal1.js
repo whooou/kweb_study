@@ -20,6 +20,9 @@ calc.div = function(a,b){
 }
 
 calc.mod = function(a,b){
+    if(b==0){
+        return new Error('zero divider error.');
+    }
     return a%b;
 }
 

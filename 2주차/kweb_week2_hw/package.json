@@ -1,0 +1,16 @@
+{
+    "name": "week2_hw",
+    "version": "1.0.0",
+    "description": "2주차_과제",
+    "main": "assignment.js",
+    "author": "sb",
+    "license": "MIT",
+    "devDependencies": {
+      "nodemon": "^1.18.4"
+    },
+    "scripts": {
+      "start" : "node assignment.js",
+      "start:dev": "nodemon assignment.js"
+    }
+}
+  

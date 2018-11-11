@@ -1,0 +1,19 @@
+{
+  "name": "kweb_week4_hw",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  },
+  "scripts": {
+    "start": "node hw_week4.js",
+    "start:dev": "nodemon hw_week4.js",
+    
+    "startorigin": "node hw_week4_origin.js",
+    "startorigin:dev": "nodemon hw_week4_origin.js"
+  }
+}

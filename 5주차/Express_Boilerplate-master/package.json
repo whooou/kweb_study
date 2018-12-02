@@ -1,0 +1,34 @@
+{
+  "name": "kweb_week5_2018",
+  "version": "1.0.0",
+  "description": "KWEB 5주차 실습자료 (2018)",
+  "scripts": {
+    "dev": "nodemon --inspect src/local --exec babel-node --plugins transform-es2015-modules-commonjs,transform-object-rest-spread,transform-async-to-generator --presets flow NODE_PATH=src APP_ENV=local"
+  },
+  "author": "M.G. BAE",
+  "license": "MIT",
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^6.1.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "http-errors": "^1.7.1",
+    "morgan": "^1.9.1",
+    "mysql2": "^1.6.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-shebang": "^0.0.0",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015-node6": "^0.4.0",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.86.0",
+    "nodemon": "^1.18.6"
+  },
+  "main": "index.js"
+}

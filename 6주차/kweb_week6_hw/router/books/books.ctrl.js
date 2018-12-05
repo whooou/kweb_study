@@ -69,7 +69,7 @@ exports.isRentList = async (req,res) => {
 exports.changeBook = async (req,res) => {
     try {
         const {id, title, author, publish, comment } = req.params;
-        await processQuery('UPDATE `books` SET (title, author, publish, comment) VALUES (?,?,?,?) WHERE id = ?',[title, author, publish, comment, id]);
+        await processQuery('UPDATE `books` SET title = ?, author = ?, publish = ?,  comment = ? WHERE id = ?',[title, author, publish, comment, id]);
         res.send('Succesfully changed');
     } catch (e) {
         throw e;

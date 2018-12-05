@@ -5,13 +5,13 @@ const booksCtrl = require('./books.ctrl');
 
 router.get('/', booksCtrl.readBooks);
 
+router.get('/rent', booksCtrl.isRentList);
+
 router.get('/:id', booksCtrl.readBooksById);
 
 router.get('/title/:title', booksCtrl.readBooksByTitle);
 
 router.post('/', booksCtrl.insertBook);
-
-router.get('/rent', booksCtrl.isRentList);
 
 router.put('/:id', booksCtrl.changeBook);
 
